@@ -14,7 +14,7 @@ try:
 except:
     pass
 
-genai.configure(api_key="AIzaSyC_4C8CbBsIRR9Raka9FUbGJ6VR0v35rZ8")
+genai.configure(api_key="")
 
 
 # Store parsed packets and summaries
@@ -986,6 +986,7 @@ scan_button.pack(side=tk.LEFT, padx=5)
 report_button = tk.Button(button_frame, text="Export AI Report", command=export_ai_report,
                           bg=accent_color, fg=fg_color, activebackground=highlight_color, activeforeground=fg_color)
 report_button.pack(side=tk.LEFT, padx=5)
+
 
 
 root.mainloop()
